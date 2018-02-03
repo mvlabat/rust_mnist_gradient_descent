@@ -1,0 +1,12 @@
+[package]
+name = "rust_mnist_gradient_descent"
+version = "0.1.0"
+authors = ["mvlabat <mvlabat@gmail.com>"]
+
+[dependencies]
+mnist = "^0.4"
+nalgebra = "^0.13.1"
+typenum = "^1.9.0"
+futures = "^0.1.18"
+futures-cpupool = "^0.1.8"
+num_cpus = "1.0"
